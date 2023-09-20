@@ -69,12 +69,22 @@ body {
   left: 10%;
 }
 
-.switch {
-  position: absolute;
+.play {
   top: 0;
   left: 0;
-  width: 12rem;
-  height: 6rem;
+}
+
+.switch {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  padding: 0.8rem 1.6rem;
   background-color: #000;
-  border-radius: inherit;
+  border-radius: 2rem;
+  transition: all 200ms ease;
+}
+
+.pause {
+  top: 0;
+  right: 0;
 }
