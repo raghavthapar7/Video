@@ -27,6 +27,7 @@ body {
 }
 
 .heading {
+  align-self: center;
   z-index: 1;
   letter-spacing: 0.6rem;
   font-size: 7.2rem;
@@ -86,4 +87,23 @@ body {
 
 .pause {
   left: 50%;
+}
+
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  background-color: #fff;
+  transition: all 500ms ease-out;
+}
+
+.preloader-hidden {
+  z-index: -100;
+  display: none;
 }
